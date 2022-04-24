@@ -7,3 +7,8 @@
 /Debug
 /Release
 /ApiMedication/obj/Debug/net6.0
+/TestMedication/obj/Debug/net6.0/refint
+/TestMedication/obj/Debug/net6.0/ref
+/TestMedication/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+/TestMedication/obj/Debug/net6.0
+/TestMedication/bin/Debug/net6.0

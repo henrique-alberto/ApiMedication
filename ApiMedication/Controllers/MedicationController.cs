@@ -26,7 +26,6 @@ namespace ApiMedication.Controllers
         {
             try
             {
-                throw new Exception("errrooooroor asdas");
                 return Ok(_medicationData.GetMedications(medicationParams));
             }
             catch (Exception ex)
