@@ -2,6 +2,7 @@ using ApiMedication.Dto.Mappings;
 using ApiMedication.MedicationData;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using ApiMedication.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.ExceptionHandler();
 app.UseHttpsRedirection();
 app.MapControllers();
 app.Run();
