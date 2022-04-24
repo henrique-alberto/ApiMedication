@@ -16,6 +16,6 @@ namespace ApiMedication.Models
         public int Quantity { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime CreateDate { get; set; }
+        public DateTime CreatedDate { get; set; }
     }
 }

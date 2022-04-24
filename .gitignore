@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/ApiMedication
+/ApiMedication/bin/Debug/net6.0
+/Debug
+/Release
+/ApiMedication/obj/Debug/net6.0
