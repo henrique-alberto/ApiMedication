@@ -55,7 +55,7 @@ namespace ApiMedication.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddMedication([FromBody] Medication dto)
+        public IActionResult AddMedication([FromBody]MedicationCreateDto dto)
         {
             try
             {
