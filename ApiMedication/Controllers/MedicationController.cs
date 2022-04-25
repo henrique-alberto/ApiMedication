@@ -34,7 +34,7 @@ namespace ApiMedication.Controllers
             }
         }
 
-        [HttpGet("/{id}")]
+        [HttpGet("{id}")]
         public IActionResult GetMedicationById(Guid id)
         {
             try
@@ -55,7 +55,7 @@ namespace ApiMedication.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddMedication([FromBody]MedicationCreateDto dto)
+        public IActionResult AddMedication([FromBody] Medication dto)
         {
             try
             {
@@ -69,7 +69,7 @@ namespace ApiMedication.Controllers
             }
         }
 
-        [HttpDelete("/{id}")]
+        [HttpDelete("{id}")]
         public IActionResult DeleteMedication(Guid id)
         {
             try
